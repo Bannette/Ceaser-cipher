@@ -13,12 +13,12 @@ public class CeaserCipherTest {
     }
     @Test
     public void ceaserCipher_getmKey_int() {
-        CeaserCipher testCeaser = new CeaserCipher("Hello",2);
+        CeaserCipher testCeaser = new CeaserCipher("Welcome",2);
         assertEquals(2,testCeaser.getmKey());
     }
     @Test
     public void ceaserCipher_getmWord_String() {
-        CeaserCipher testCeaser = new CeaserCipher("Hello",1);
-        assertEquals("Hello",testCeaser.getmWord());
+        CeaserCipher testCeaser = new CeaserCipher("Welcome",1);
+        assertEquals("Welcome",testCeaser.getmWord());
     }
 }

@@ -9,6 +9,7 @@ public class CeaserCipher {
         this.mWord = word;
         this.mKey = key;
     }
+    //GETTERS
 
     public String getmWord() {
         return mWord;
@@ -16,5 +17,13 @@ public class CeaserCipher {
 
     public int getmKey() {
         return mKey;
+    }
+     //SETTERS
+    public void setmWord(String mWord) {
+        this.mWord = mWord;
+    }
+
+    public void setmKey(int mKey) {
+        this.mKey = mKey;
     }
 }
