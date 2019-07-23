@@ -16,8 +16,7 @@ You need the following installed on your machine
 To confirm run the following command
 $ java App
 # TECHNOLOGIES USED
-* HTML
-* CSS
+* Java
 
 
 # CONTACT INFORMATION
